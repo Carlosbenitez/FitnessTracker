@@ -10,27 +10,36 @@ html,
 body,
 .wrapper {
   height: 100%;
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
 }
+
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-
 nav {
-  background-color: #5793fd;
+  background-color: #97e2de;
   color: #ffffff;
   height: 80px;
   padding: 10px;
   line-height: 3;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
 }
 
 a,
-a:hover,
 a:active,
 a:visited {
   text-decoration: none;
   color: inherit;
+  margin-right: 10px;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+a:active{
+  color:gray;
 }
 
 header {

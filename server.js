@@ -3,7 +3,7 @@ var express = require("express");
 var morgan = require("morgan");
 
 // Setting up port and requiring models for syncing
-var PORT = process.env.PORT || 8080;
+var PORT = process.env.PORT || 3030;
 
 // Creating express app and configuring middleware needed for authentication
 var app = express();
